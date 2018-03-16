@@ -1,5 +1,5 @@
 # lzcdevblog
-<p align='center'>
+<p>
 <img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
 <img src="https://img.shields.io/badge/language-Objective--C-orange.svg">
 <img src="https://img.shields.io/badge/language-python-yellowgreen.svg">
@@ -8,10 +8,8 @@
 
 ## iOS
 ## Python
-## 其他
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
-|爬虫|[爬取百度百科](./Articles/baidubaike_spider.md)||
-| 年度分享|[我的 2015 年总结](./articles/2015-conclusion.md)<br>[我的 2016 年总结](./articles/2016-conclusion.md)<br>[我的 2017 年总结](./articles/2017-conclusion.md)|<br>|
-| 其它分享|[让 BAT 的 Offer 不再难拿](./articles/bat-offer.md)<br>[全自动科学上网方案分享](./articles/fq.md)<br>[复盘微博短链接盗窃门](./articles/weibo-short-url.md)<br>||
-|工作效率|[如何大幅度提高 Mac 开发效率](./articles/efficient-mac.md)<br>[成吨提高开发效率的终极武器——自己开发 workflow](./articles/alfred-workflows.md)<br>|
+|爬虫|[爬取百度百科](./Articles/baidubaike_spider.md)|慢慢来吧|
+
+## 其他
