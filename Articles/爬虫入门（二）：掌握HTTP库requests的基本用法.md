@@ -1,12 +1,4 @@
----
-date: 2017-11-5
-layout: 'post'
-title: '爬虫入门（二）：掌握HTTP库requests的基本用法'
-tags:
-    - "爬虫"
-status: 'public'
-categories : [Python]
----
+
 我们知道，Python内置了urllib等模块用于HTTP请求，然而它的API使用起来并不优雅，于是[Requests](https://github.com/requests/requests)基于urllib进行了高度封装，使用起来更加简洁、更加人性化。它是Python的一个非常强大的HTTP库。看一下它霸气的介绍
 >Requests is the only Non-GMO HTTP library for Python, safe for human consumption.
 
