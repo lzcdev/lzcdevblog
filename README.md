@@ -10,7 +10,7 @@
 ## Python
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
-|爬虫|[爬取百度百科](./Articles/baidubaike_spider.md)<br>[爬虫入门（二）：掌握HTTP库requests的基本用法](./Articles/爬虫入门（二）：掌握HTTP库requests的基本用法.md)|没有备注，哈哈|
+|爬虫|[爬取百度百科](./Articles/baidubaike_spider.md)<br>[爬虫入门（一）：快速理解HTTP协议](./Articles/爬虫入门（一）：快速理解HTTP协议.md)<br>[爬虫入门（二）：掌握HTTP库requests的基本用法](./Articles/爬虫入门（二）：掌握HTTP库requests的基本用法.md)|没有备注，哈哈|
 
 
 ## 其他
