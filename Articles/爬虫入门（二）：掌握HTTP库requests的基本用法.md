@@ -92,8 +92,8 @@ print response.text
 #### HTTP响应
 发起请求后，requests会将http响应封装成一个response对象，它常用的属性和方法如下 ：
 
-属性名       |      结果    
-|:----:|:-------|:------|
+属性名 | 结果    
+|:----:|:------|
 text            |    HTTP字符       
 encoding   |    响应编码，这个值可以改变，改变之后text属性也会根据编码而变化       
 content     |    未编码的二进制数据       
