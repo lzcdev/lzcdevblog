@@ -91,8 +91,9 @@ print response.text
 ```
 #### HTTP响应
 发起请求后，requests会将http响应封装成一个response对象，它常用的属性和方法如下 ：
-```table
+
 属性名       |      结果    
+|:----:|:-------|:------|
 text            |    HTTP字符       
 encoding   |    响应编码，这个值可以改变，改变之后text属性也会根据编码而变化       
 content     |    未编码的二进制数据       
@@ -103,7 +104,7 @@ status_code      |    状态码
 headers     |    请求头字典   
 cookies     |    	cookies字典  
 history      |    如果发生重定向，所有请求对象都会保存到这里    
-```
+
 requests会根据 HTTP 头对响应的编码作出推测。可以查看当前的编码
 ```
 print response.encoding

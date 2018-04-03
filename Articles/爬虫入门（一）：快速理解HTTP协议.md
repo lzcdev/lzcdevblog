@@ -1,13 +1,3 @@
----
-date: 2017-10-29
-layout: 'post'
-title: '爬虫入门（一）：快速理解HTTP协议'
-tags:
-    - "爬虫"
-    - "网络"
-status: 'public'
-categories : [Python]
----
 
 HTTP协议英文名字为（HyperText Transfer Protoco），是一种用于分布式、协作式和超媒体信息系统的应用层协议。在我们日常上网中，无时无刻不在用这个协议。HTTP是万维网的数据通信的基础。
 
