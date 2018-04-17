@@ -9,12 +9,12 @@
 ## iOS
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
-|学习资料|[学习资料](./Articles/学习资料.md)||
+|学习资料|[学习资料](./Articles/学习资料.md)<br>[CocoaPods创建私有库](./Articles/CocoaPods创建私有库.md)||
 ## Android
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
-|基础|[Gradle构建工具](./Articles/Gradle构建工具)||
-|实战|[写一个聊天界面](./Articles/写一个聊天界面)||
+|基础|[Gradle构建工具](./Articles/Gradle构建工具.md)||
+|实战|[写一个聊天界面](./Articles/写一个聊天界面.md)||
 
 ## Python
 | 主题 | 文章 | 备注 |
