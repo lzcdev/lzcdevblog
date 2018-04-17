@@ -67,6 +67,7 @@ pod lib create LogTool
 生成的项目结构如下：
 
 ![](./_image/2018-04-17-15-57-54.jpg?r=50)
+
 pod lib create 会为我们创建一个 Workspace，里面包含两个 Project， LogTool 是我们 Pod 库的 Demo 项目, Pods 是我们实际开发的库的代码。
 我们可以修改 Pods/Development Pods/LogTool/LogTool/Classes/ReplaceMe.swift 这个文件，将它重命名为 LogTool.swift, 然后写入如下代码：
 ```
