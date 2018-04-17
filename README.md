@@ -9,7 +9,8 @@
 ## iOS
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
-|学习资料|[学习资料](./Articles/学习资料.md)<br>[CocoaPods创建私有库](./Articles/CocoaPods创建私有库.md)||
+|学习资料|[学习资料](./Articles/学习资料.md)||
+|CocoaPods|[CocoaPods创建私有库](./Articles/CocoaPods创建私有库.md)||
 ## Android
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
