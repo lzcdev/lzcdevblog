@@ -1,12 +1,3 @@
----
-date: 2018-4-16
-layout: 'post'
-title: 'CocoaPods创建私有库'
-tags:
-    - "iOS"
-status: 'public'
-categories : [iOS]
----
 CocoaPods 是开发 OS X 和 iOS 应用程序的一个很好用的依赖管理工具，我们常用来管理和更新第三方库。其实它还有一个很有用的特性——管理团队内部的私有库。当公司项目越来越大、越来越多的时候，我们会把一些基础的公共类、工具类、网络请求等抽离出来。而Cocoapods提供的Private Spec Repo可以帮助我们很好的管理我们的公共代码。
 
 <!-- more -->
