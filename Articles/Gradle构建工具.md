@@ -1,12 +1,3 @@
----
-date: 2017-6-2
-layout: 'post'
-title: ''
-tags:
-    - "Android"
-status: 'public'
-categories : [Android]
----
 Gradle是一种构建工具,它可以帮你管理项目中的差异,依赖,编译,打包,部署......,你可以定义满足自己需要的构建逻辑,写入到build.gradle中供日后复用.
 
 <!-- more -->
