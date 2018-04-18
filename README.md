@@ -5,12 +5,16 @@
 <img src="https://img.shields.io/badge/language-python-yellowgreen.svg">
 <a href="https://lzcdev.com"><img src="https://img.shields.io/badge/blog-lzcdev-blue.svg"></a>
 </p>
+## 博客地址
+我的博客[https://lzcdev.com](https://lzcdev.com)
+如果不能正常访问，试试这个[https://coderlzc.bitcron.com](https://coderlzc.bitcron.com)
 
 ## iOS
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
 |学习资料|[学习资料](./Articles/学习资料.md)||
 |CocoaPods|[CocoaPods创建私有库](./Articles/CocoaPods创建私有库.md)||
+|原理|[深入理解alloc、init方法](./Articles/深入理解alloc、init方法.md)<br>[深入理解Category](./Articles/深入理解Category.md)||
 ## Android
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
