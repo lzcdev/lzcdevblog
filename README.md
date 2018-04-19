@@ -16,6 +16,11 @@
 |学习资料|[学习资料](./Articles/学习资料.md)||
 |CocoaPods|[CocoaPods创建私有库](./Articles/CocoaPods创建私有库.md)||
 |原理|[深入理解alloc、init方法](./Articles/深入理解alloc、init方法.md)<br>[深入理解Category](./Articles/深入理解Category.md)||
+## 前端
+
+| 主题 | 文章 | 备注 |
+|:----:|:-------|:------|
+|JavaScript|[JS中的严格模式](./Articles/JS中的严格模式.md)||
 ## Android
 | 主题 | 文章 | 备注 |
 |:----:|:-------|:------|
