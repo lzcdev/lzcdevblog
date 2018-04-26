@@ -70,7 +70,7 @@ pod lib create LogTool
 
 pod lib create 会为我们创建一个 Workspace，里面包含两个 Project， LogTool 是我们 Pod 库的 Demo 项目, Pods 是我们实际开发的库的代码。
 我们可以修改 Pods/Development Pods/LogTool/LogTool/Classes/ReplaceMe.swift 这个文件，将它重命名为 LogTool.swift, 然后写入如下代码：
-```
+```swift
 public class LogTool {
     static public func LogTest () -> Void{
         print("It's a logTool")
@@ -78,7 +78,7 @@ public class LogTool {
 }
 ```
 接下来在Example for LogTool／ViewController.swift中使用我们的库
-```
+```swift
 import UIKit
 import LogTool
 
@@ -161,7 +161,7 @@ pod repo push privateSpecs LogTool.podspec
 
 ![](./_image/2018-04-17-16-44-24.jpg)
 编辑Podfile文件：
-```
+```swift
 source "https://github.com/lzcdev/PrivateSpecs"
 target 'TestPrivatePod' do
 use_frameworks!
@@ -169,7 +169,7 @@ pod "LogTool"
 end
 ```
 这里需要特别注意，这和平时用开源库不同，多了一个source，用来指定从哪个spec仓库抓取内容。这里还有一个问题是假如我们需要同时使用开源库和私有库怎么办呢？答案就是要同时指定私有库和开源库的source。[官方文档](http://guides.cocoapods.org/syntax/podfile.html#source)也有相应的说明。类似这样
-```
+```swift
 source "https://github.com/lzcdev/PrivateSpecs"
 source "https://github.com/CocoaPods/Specs"
 ```

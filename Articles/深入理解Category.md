@@ -11,7 +11,7 @@ Category是Objective-C 2.0之后添加的语言特性。它的主要作用是在
 
 ## 三、分析runtime源码下的Category实现原理
 下载最新版 [runtime](http://opensource.apple.com/tarballs/objc4/) 源码，本例用的` objc4-706.tar.gz`。打开runtime文件夹下的`objc-runtime-new.h`，可以看到category的定义。
-```
+```oc
 struct category_t {
     const char *name; //类名字
     classref_t cls; // 类
@@ -31,7 +31,7 @@ struct category_t {
 ```
 从这个结构体看出category可以添加实例方法和类方法，实现协议，添加属性。
 下面打开runtime文件夹下的`objc-runtime-new.mm`，找到` void _read_images(header_info **hList, uint32_t hCount, int totalClasses, int unoptimizedTotalClasses)`这个方法，下面这段是关键部分
-```
+```oc
     // Process this category. 
             // First, register the category with its target class. 
             // Then, rebuild the class's method lists (etc) if 
@@ -71,7 +71,7 @@ struct category_t {
 * 如果类已经实现则重建它的方法列表
 
 根据`remethodizeClass(cls)`和`remethodizeClass(cls->ISA())`这个方法继续往下找，可以看到`remethodizeClass`方法的实现
-```
+```oc
 static void remethodizeClass(Class cls)
 {
     category_list *cats;
@@ -94,7 +94,7 @@ static void remethodizeClass(Class cls)
 }
 ```
 分析这段代码发现这还不是最终的方法，继续顺藤摸瓜找到`attachCategories(cls, cats, true /*flush caches*/)`这个方法
-```
+```oc
 // Attach method lists and properties and protocols from categories to a class.
 // Assumes the categories in cats are all loaded and sorted by load order, 
 // oldest categories first.
@@ -157,7 +157,7 @@ attachCategories(Class cls, category_list *cats, bool flush_caches)
 ```
 通过注释就可以看到，这个方法才是真正的把catrgory的方法、属性、协议整合到主类中的。这里的整合其实是合并在一起的，并没有真正覆盖掉原来主类的方法，而是添加到原先方法的前面，掉用的时候发现前面的方法就会执行并且停止查询了，所以给了人们category可以''覆盖''主类方法的错觉。其实只要顺着方法列表找到最后一个对应名字的方法，也是可以调用原来类的方法的。
 下面就做个实验验证一下：本段代码参考[深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html)，写一个MyClass的分类打印myAdditionClass。这个小测验也可以在我的[GitHub](https://github.com/zcLu/CategoryDemo)找到。
-```
+```oc
 #import "MyClass.h"
 
 @implementation MyClass
@@ -180,7 +180,7 @@ attachCategories(Class cls, category_list *cats, bool flush_caches)
 
 ```
 下面这段就是找主类中的方法。
-```
+```oc
     MyClass *class = [[MyClass alloc]init];
     [class printName]; //执行分类的方法打印的是myAdditionClass
     
