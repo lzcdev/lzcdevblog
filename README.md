@@ -18,6 +18,8 @@
 |CocoaPods|[CocoaPods创建私有库](./Articles/CocoaPods创建私有库.md)||
 |工具|[Carthage的使用](./Articles/Carthage的使用.md)<br>[Fastlane自动化构建](./Articles/Fastlane自动化构建.md)||
 |原理|[深入理解alloc、init方法](./Articles/深入理解alloc、init方法.md)<br>[深入理解Category](./Articles/深入理解Category.md)||
+|其他|[动态更改App图标](./Articles/动态更改App图标.md)||
+
 
 ## 前端
 
