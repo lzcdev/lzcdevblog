@@ -62,7 +62,7 @@ sidebar: {
 ```
 
 ### 评论
-这里用的是 [vssue](https://vssue.js.org/zh/guide/)，集成也比较简单
+这里用的是 [vssue](https://vssue.js.org/zh/guide/)，根据文档集成就好
 
 
 ## 发布

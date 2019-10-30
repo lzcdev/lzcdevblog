@@ -10,5 +10,5 @@ features:
   details: Two roads diverged in a yellow wood, And sorry I could not travel both ... Two roads diverged in a wood, and I took the one less traveled by, And that has made all the difference
 - title: About Me
   details: 专注大前端，技术栈：Web、iOS、小程序、Python ...
-footer: MIT Licensed | Copyright © 2018 lzcdev
+footer: MIT Licensed | Copyright © 2019 lzcdev
 ---

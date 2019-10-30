@@ -63,9 +63,9 @@ module.exports = {
       ],
     }
   },
-  plugins: [
-    ['@vuepress/back-to-top', true],
-    ['@vssue/vuepress-plugin-vssue', {
+  plugins: {
+    '@vuepress/back-to-top': true,
+    '@vssue/vuepress-plugin-vssue': {
       // 设置 `platform` 而不是 `api`
       platform: 'github',
       // 其他的 Vssue 配置
@@ -73,9 +73,8 @@ module.exports = {
       repo: 'lzcdevblog',
       clientId: 'bb016e51ba736882ec2c',
       clientSecret: 'ec552d8fb56a7d848abc56047e27d458227c5aee',
-    }]
-  ]
-
+    }
+  }
 }
 
 
