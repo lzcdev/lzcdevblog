@@ -19,6 +19,7 @@ module.exports = {
       { text: 'Java', link: '/java/' }, // 内部链接 以docs为根目录
       { text: 'Python', link: '/python/' }, // 内部链接 以docs为根目录
       { text: '算法', link: '/algorithm/' }, // 内部链接 以docs为根目录
+      { text: '其他', link: '/other/' }, // 内部链接 以docs为根目录
       { text: '博客', link: 'http://lzcdev.xyz/' },// 外部链接   
       { text: 'Github', link: 'https://github.com/lzcdev/' }// 外部链接   
     ],
@@ -60,6 +61,9 @@ module.exports = {
       ],
       '/algorithm/': [
         '算法'
+      ],
+      '/other/': [
+        '阿里云ECS相关'
       ],
     }
   },
