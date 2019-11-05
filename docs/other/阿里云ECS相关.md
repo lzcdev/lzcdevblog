@@ -16,7 +16,11 @@ ssh root@47.96.73.255
 certbot-auto  halo-latest.jar  hello  nohup.out  sign  wyxq
 ```
 
-cerbot-auto 是为各种域名申请 https 用的
+cerbot-auto 是为各种域名申请 https 用的,如果 https 证书过期
+
+```
+./certbot-auto renew
+```
 
 halo-latest.jar 和 nohup.out 是 halo 博客用的
 
